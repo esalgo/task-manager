@@ -1,0 +1,14 @@
+.header, .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #2fa1ff;
+
+    gap: 1rem;
+    width: 100vw;
+    height: 10vh;
+    border-radius: 4px;
+    border-bottom: 2px solid #000000;
+}
+
+

@@ -1,0 +1,21 @@
+.user-section{
+    gap: 10vh;
+    height: auto;
+}
+
+.user-article{
+    padding: 10vh 3vw;
+}
+
+.user-form{
+    display: flex;
+    width: 70vw;
+
+}
+
+
+@media (width <= 768px) {
+    .user-article, .user-form{
+        flex-direction: column;
+    }
+}

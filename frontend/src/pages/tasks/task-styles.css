@@ -1,0 +1,57 @@
+.task-article, .column, .table-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-section{
+    height: auto;
+    gap: 8vh;
+
+}
+
+.task-article{
+    padding: 6vh;
+    width: clamp(300px, 82vw, 90vw);
+    height: auto;
+    gap: 30px;
+}
+
+.task-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+    height: auto;
+    gap: 2%;
+}
+
+@media (width <= 768px ) {
+    .task-form{
+        flex-direction: column;
+        height: auto;
+        gap: 50px;
+    }
+    .task-article{
+        height: auto;
+    }
+    .column{
+        gap: 20px;
+    }
+    .task-section{
+        margin-top: 0;
+    }
+}
+
+.column{
+    flex: 1;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 100%;
+}
+
+.btn-column{
+    height: 80%;
+    flex: 0.7;
+}
